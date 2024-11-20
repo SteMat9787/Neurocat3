@@ -26,6 +26,6 @@ In the folder 'RSA_ROI' there is:
 - These RDMs are stored into the folder 'BrainDSM', and cana bee visualized using the script 'Visualize_DSM_normalizedAllGrtogether.m' in the same folder.
 - The script 'corrANDpartCorr_with_CAT5_HmaxC1.m' iss used for the RSA analysis to correrlate brain DSMs with external models: HmaxC1 and Categorical (stored in the folder Models)
 - In the folder 'Results_RSA' there are the file with the Spearman's correlation values for the two models with the brain RDMs from every subject in every brain region.
-    > Using the script 'visualizeResults_singleROI_RSAcategorical_choice_2Gr.m' the results with categorical model can be visualized in dotplot graphs;
-    >  Using the script 'visualizeResults_singleROI_RSAhmaxc1_choice_2Gr.m' the results with HmaxC1 model can be visualized in dotplot graphs
-    > To add the gray bars (see dotplot graphs in figure 5) representing the maximal level of correlation the vaalues sstored in the folder 'Intra_Corr_results' are used.
+    - Using the script 'visualizeResults_singleROI_RSAcategorical_choice_2Gr.m' the results with categorical model can be visualized in dotplot graphs;
+    -  Using the script 'visualizeResults_singleROI_RSAhmaxc1_choice_2Gr.m' the results with HmaxC1 model can be visualized in dotplot graphs
+    - To add the gray bars (see dotplot graphs in figure 5) representing the maximal level of correlation the vaalues sstored in the folder 'Intra_Corr_results' are used.
