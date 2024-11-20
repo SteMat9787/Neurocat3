@@ -38,5 +38,5 @@ In the folder 'Decoding_betweenCategories' there is:
 
 In the folder 'Decoding_withinCategories' there is:
 - the matlab script 'MVPA_ROIaccuracy_withinCAT_Mattioni20112024.m' used to run the ROI within categories decoding analysis.
-- a folder 'results_ROIs_withinCAT_and_viz' where are stored the results for each mask and category and the matab script 'visualizeResults_singleROI_choose2Gr.m' to visualize the dotplot graphs of figure 6 panels E-F-G-H. To plot the confusion matrices for each group and ROI the script 'Visualize_Confusion_Matrices.m' can be used.
+- a folder 'results_ROIs_withinCAT_and_viz' where are stored the results for each mask and category and the matab script 'visualizeResults_singleROI_choose2Gr.m' to visualize the dotplot graphs of figure 6. To plot the confusion matrices (figure SI 3) for each group and ROI the script 'Visualize_Confusion_Matrices.m' can be used.
 
