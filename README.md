@@ -33,5 +33,10 @@ In the folder 'RSA_ROI' there is:
     - To add the gray bars (see dotplot graphs in figure 5) representing the maximal level of correlation the vaalues sstored in the folder 'Intra_Corr_results' are used.
  
 In the folder 'Decoding_betweenCategories' there is:
-- the matlab script 'Decoding_betweenCAT_ROIs_Mattioni20112024.m' used to run the ROI between categoriess decoding analysis.
-- a folder 'Results_lda_and_viz' where are stored the results for each mask and the matab script 'visualizeResults_singleROI_choose2Gr.m' to visualize the dotplot graphs of figure SI 2 panels E-F-G-H
+- the matlab script 'Decoding_betweenCAT_ROIs_Mattioni20112024.m' used to run the ROI between categories decoding analysis.
+- a folder 'Results_lda_and_viz' where are stored the results for each mask and the matab script 'visualizeResults_singleROI_choose2Gr.m' to visualize the dotplot graphs of figure SI 2 panels E-F-G-H. To plot the confusion matrices for each group and ROI the script 'Visualize_Confusion_Matrices.m' can be used.
+
+In the folder 'Decoding_withinCategories' there is:
+- the matlab script 'MVPA_ROIaccuracy_withinCAT_Mattioni20112024.m' used to run the ROI within categories decoding analysis.
+- a folder 'results_ROIs_withinCAT_and_viz' where are stored the results for each mask and category and the matab script 'visualizeResults_singleROI_choose2Gr.m' to visualize the dotplot graphs of figure 6 panels E-F-G-H. To plot the confusion matrices for each group and ROI the script 'Visualize_Confusion_Matrices.m' can be used.
+
