@@ -1,7 +1,7 @@
 # Neurocat3
 This is an fMRI project titled "Impact of a transient neonatal visual deprivation on the development of the ventral occipito-temporal cortex in humans"
 
-Most of the scripts used for analyses and data visualization are stored here in Github, while data and masks are stored in OSF 
+Most of the scripts used for analyses and data visualization are stored here in Github, while data and masks are stored in OSF (DOI 10.17605/OSF.IO/BECDR)
 
 There are 2 main folders here:
 1 MULTIVARIATE_searchlight
@@ -14,7 +14,7 @@ In **MULTIVARIATE_searchlight** are stored the 4 matlab scripts used to run the 
 4. Decoding_lda_NeuroCat3_WithinCategoriess_Mattioni19112024
 
 The brain maps results from these searchlight analyses are shown in the paper in figures 4 (splithalf), figure 5 (RSA), figure 6 and Supplemental figure 3 (Within category decoing), supplemental figure 2 (Between category decoding).
-We alsso created some brrain mask based on these results (shared on OSF) that wee used to visualize repreesentational dissimilarity matrices, confusion matrices and dotplot graphs --> see next section
+We also created some brrain mask based on these results (shared on OSF) that wee used to visualize repreesentational dissimilarity matrices, confusion matrices and dotplot graphs --> see next section
 
 In **MULTIVARIATE_ROIs_and_viz** are stored the script for ROI multivariate analyses used for visualization only in the mask created from searchlight analyses.
 
