@@ -17,6 +17,8 @@ The brain maps results from these searchlight analyses are shown in the paper in
 We alsso created some brrain mask based on these results (shared on OSF) that wee used to visualize repreesentational dissimilarity matrices, confusion matrices and dotplot graphs --> see next section
 
 In **MULTIVARIATE_ROIs_and_viz** are stored the script for ROI multivariate analyses used for visualization only in the mask created from searchlight analyses.
+
+
 In the folder 'Splithalf_ROI' there is:
 - the matlab script 'Splithalf_ROI_Mattioni19112024.m' used to run the ROI splithalf analysis.
 - a folder 'results_splithalfROI' where are stored the splithalf correlation results for each mask aand the matab script 'visualizeResults_singleROI_choose2Gr.m' to visualize the dotplot graphs of figure 4 panels E-F-G-I-L
@@ -29,3 +31,7 @@ In the folder 'RSA_ROI' there is:
     - Using the script 'visualizeResults_singleROI_RSAcategorical_choice_2Gr.m' the results with categorical model can be visualized in dotplot graphs;
     -  Using the script 'visualizeResults_singleROI_RSAhmaxc1_choice_2Gr.m' the results with HmaxC1 model can be visualized in dotplot graphs
     - To add the gray bars (see dotplot graphs in figure 5) representing the maximal level of correlation the vaalues sstored in the folder 'Intra_Corr_results' are used.
+ 
+In the folder 'Decoding_betweenCategories' there is:
+- the matlab script 'Decoding_betweenCAT_ROIs_Mattioni20112024.m' used to run the ROI between categoriess decoding analysis.
+- a folder 'Results_lda_and_viz' where are stored the results for each mask and the matab script 'visualizeResults_singleROI_choose2Gr.m' to visualize the dotplot graphs of figure SI 2 panels E-F-G-H
